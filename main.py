@@ -1,10 +1,8 @@
-from datetime import date, datetime
 from kubernetes import config
 import kubernetes.client
 from pprint import pprint
 from kubernetes.client.rest import ApiException
 import os
-import datetime
 
 from rsa import PrivateKey
 
